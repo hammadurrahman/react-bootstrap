@@ -43,3 +43,4 @@ module.exports = (api) => {
     plugins: [env === 'test' && 'istanbul'].filter(Boolean),
   };
 };
+  let setUseClient = false;
